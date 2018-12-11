@@ -13,6 +13,10 @@
 		1953F65B21BFB83300502DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1953F65A21BFB83300502DE9 /* Assets.xcassets */; };
 		1953F65E21BFB83300502DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1953F65C21BFB83300502DE9 /* LaunchScreen.storyboard */; };
 		1953F66121BFB83300502DE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1953F66021BFB83300502DE9 /* main.m */; };
+		1953F66A21BFB95E00502DE9 /* GlShowBigPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1953F66921BFB95E00502DE9 /* GlShowBigPictureViewController.m */; };
+		1953F66D21BFBB7700502DE9 /* GlShowBigCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1953F66C21BFBB7700502DE9 /* GlShowBigCollectionViewCell.m */; };
+		1953F67221BFBF3300502DE9 /* GlShowPictureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1953F67121BFBF3300502DE9 /* GlShowPictureModel.m */; };
+		AF9C9AF22B32F2E0DA29E7E1 /* libPods-GlShowBigPhoto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1366171A3F75132103CA74 /* libPods-GlShowBigPhoto.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,16 @@
 		1953F65D21BFB83300502DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1953F65F21BFB83300502DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1953F66021BFB83300502DE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1953F66821BFB95E00502DE9 /* GlShowBigPictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlShowBigPictureViewController.h; sourceTree = "<group>"; };
+		1953F66921BFB95E00502DE9 /* GlShowBigPictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlShowBigPictureViewController.m; sourceTree = "<group>"; };
+		1953F66B21BFBB7700502DE9 /* GlShowBigCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlShowBigCollectionViewCell.h; sourceTree = "<group>"; };
+		1953F66C21BFBB7700502DE9 /* GlShowBigCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlShowBigCollectionViewCell.m; sourceTree = "<group>"; };
+		1953F66F21BFBD5900502DE9 /* GlComHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlComHeader.h; sourceTree = "<group>"; };
+		1953F67021BFBF3300502DE9 /* GlShowPictureModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlShowPictureModel.h; sourceTree = "<group>"; };
+		1953F67121BFBF3300502DE9 /* GlShowPictureModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlShowPictureModel.m; sourceTree = "<group>"; };
+		9A1366171A3F75132103CA74 /* libPods-GlShowBigPhoto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GlShowBigPhoto.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D570A2A4BB7A97BDAEB7D6 /* Pods-GlShowBigPhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlShowBigPhoto.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlShowBigPhoto/Pods-GlShowBigPhoto.release.xcconfig"; sourceTree = "<group>"; };
+		D6799FB9191A7AD90AFCD0AE /* Pods-GlShowBigPhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlShowBigPhoto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlShowBigPhoto/Pods-GlShowBigPhoto.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9C9AF22B32F2E0DA29E7E1 /* libPods-GlShowBigPhoto.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		093CF3B6A603F0AC37652D3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A1366171A3F75132103CA74 /* libPods-GlShowBigPhoto.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1953F64521BFB83200502DE9 = {
 			isa = PBXGroup;
 			children = (
 				1953F65021BFB83200502DE9 /* GlShowBigPhoto */,
 				1953F64F21BFB83200502DE9 /* Products */,
+				A79FF53FF277FFD8EE53BBC8 /* Pods */,
+				093CF3B6A603F0AC37652D3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +83,7 @@
 		1953F65021BFB83200502DE9 /* GlShowBigPhoto */ = {
 			isa = PBXGroup;
 			children = (
+				1953F66721BFB8F300502DE9 /* GlShowPhoto */,
 				1953F65121BFB83200502DE9 /* AppDelegate.h */,
 				1953F65221BFB83200502DE9 /* AppDelegate.m */,
 				1953F65421BFB83200502DE9 /* ViewController.h */,
@@ -71,6 +97,29 @@
 			path = GlShowBigPhoto;
 			sourceTree = "<group>";
 		};
+		1953F66721BFB8F300502DE9 /* GlShowPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				1953F66821BFB95E00502DE9 /* GlShowBigPictureViewController.h */,
+				1953F66921BFB95E00502DE9 /* GlShowBigPictureViewController.m */,
+				1953F66B21BFBB7700502DE9 /* GlShowBigCollectionViewCell.h */,
+				1953F66C21BFBB7700502DE9 /* GlShowBigCollectionViewCell.m */,
+				1953F66F21BFBD5900502DE9 /* GlComHeader.h */,
+				1953F67021BFBF3300502DE9 /* GlShowPictureModel.h */,
+				1953F67121BFBF3300502DE9 /* GlShowPictureModel.m */,
+			);
+			path = GlShowPhoto;
+			sourceTree = "<group>";
+		};
+		A79FF53FF277FFD8EE53BBC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6799FB9191A7AD90AFCD0AE /* Pods-GlShowBigPhoto.debug.xcconfig */,
+				D1D570A2A4BB7A97BDAEB7D6 /* Pods-GlShowBigPhoto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +127,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1953F66421BFB83300502DE9 /* Build configuration list for PBXNativeTarget "GlShowBigPhoto" */;
 			buildPhases = (
+				00B2BA0FA52FF4B42A24960C /* [CP] Check Pods Manifest.lock */,
 				1953F64A21BFB83200502DE9 /* Sources */,
 				1953F64B21BFB83200502DE9 /* Frameworks */,
 				1953F64C21BFB83200502DE9 /* Resources */,
@@ -136,14 +186,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00B2BA0FA52FF4B42A24960C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlShowBigPhoto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1953F64A21BFB83200502DE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1953F67221BFBF3300502DE9 /* GlShowPictureModel.m in Sources */,
+				1953F66A21BFB95E00502DE9 /* GlShowBigPictureViewController.m in Sources */,
 				1953F65621BFB83200502DE9 /* ViewController.m in Sources */,
 				1953F66121BFB83300502DE9 /* main.m in Sources */,
 				1953F65321BFB83200502DE9 /* AppDelegate.m in Sources */,
+				1953F66D21BFBB7700502DE9 /* GlShowBigCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,10 +357,12 @@
 		};
 		1953F66521BFB83300502DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6799FB9191A7AD90AFCD0AE /* Pods-GlShowBigPhoto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GlShowBigPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +375,12 @@
 		};
 		1953F66621BFB83300502DE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1D570A2A4BB7A97BDAEB7D6 /* Pods-GlShowBigPhoto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GlShowBigPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
