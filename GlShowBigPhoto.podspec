@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GlShowBigPhoto"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "查看本地或者网络图片，查看多个图片"
 
   # This description is used to generate tags and improve search results.
@@ -53,9 +53,9 @@ it is good look big photo
   #  profile URL.
   #
 
-  s.author             = { "liguanglei" => "liguanglei@sina.com" }
-  # Or just: s.author    = "liguanglei"
-  # s.authors            = { "liguanglei" => "liguanglei@sina.com" }
+  s.author             = { "gleeeli" => "gleeeli@sina.com" }
+  # Or just: s.author    = "gleeeli"
+  # s.authors            = { "gleeeli" => "gleeeli@sina.com" }
   # s.social_media_url   = "http://twitter.com/liguanglei"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -80,7 +80,7 @@ it is good look big photo
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/gleeeli/GlShowBigPhoto.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/gleeeli/GlShowBigPhoto.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ it is good look big photo
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "GlShowBigPhoto/*"
+  s.source_files  = "GlShowPhoto"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -117,7 +117,7 @@ it is good look big photo
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+  # s.framework  = "Foundation","UIKit"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"

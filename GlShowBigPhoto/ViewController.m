@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "GlShowPhoto/GlShowBigPictureViewController.h"
+#import "GlShowBigPictureViewController.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) NSMutableArray *muarray;
