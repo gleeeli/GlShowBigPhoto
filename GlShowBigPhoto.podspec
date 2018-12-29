@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GlShowBigPhoto"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "查看本地或者网络图片，查看多个图片"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ it is good look big photo
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/gleeeli/GlShowBigPhoto.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/gleeeli/GlShowBigPhoto.git", :tag => "1.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

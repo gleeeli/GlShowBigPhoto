@@ -8,8 +8,8 @@
 
 #import "GlShowBigCollectionViewCell.h"
 #import "GlComHeader.h"
-#import <Masonry.h>
-#import <UIImageView+WebCache.h>
+#import "Masonry.h"
+#import "UIImageView+WebCache.h"
 
 #define GlPhotoEdgeInterval 15
 #define GlDefaultImageName @"default"
