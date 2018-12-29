@@ -7,7 +7,8 @@ pod 'GlShowBigPhoto'
 
 使用方式：
 
-GlShowBigPictureViewController *vc = [[GlShowBigPictureViewController alloc] init];
+
+    GlShowBigPictureViewController *vc = [[GlShowBigPictureViewController alloc] init];
 
     vc.photoModelsArray = self.muarray;
     
