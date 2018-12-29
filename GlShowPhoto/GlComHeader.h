@@ -8,8 +8,6 @@
 
 #ifndef GlComHeader_h
 #define GlComHeader_h
-#import "Masonry.h"
-#import "UIImageView+WebCache.h"
 
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
