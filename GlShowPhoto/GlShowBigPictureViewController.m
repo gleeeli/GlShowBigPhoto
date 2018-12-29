@@ -8,7 +8,6 @@
 
 #import "GlShowBigPictureViewController.h"
 #import "GlComHeader.h"
-#import <Masonry/Masonry.h>
 #import "GlShowBigCollectionViewCell.h"
 
 @interface GlShowBigPictureViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
