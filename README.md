@@ -8,8 +8,11 @@ pod 'GlShowBigPhoto'
 使用方式：
 
 GlShowBigPictureViewController *vc = [[GlShowBigPictureViewController alloc] init];
+
     vc.photoModelsArray = self.muarray;
+    
     [self.navigationController pushViewController:vc animated:YES];
+    
     
 
 ![image](https://github.com/gleeeli/GlShowBigPhoto/blob/master/QQ20181211-182829-HD.gif)
